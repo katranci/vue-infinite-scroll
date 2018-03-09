@@ -160,7 +160,6 @@ var doBind = function doBind() {
   }
 
   directive.reversedCheck = element.hasAttribute('infinite-scroll-reverse');
-  console.log(directive.reversedCheck);
 };
 
 var doCheck = function doCheck(force) {
